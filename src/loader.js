@@ -48,8 +48,8 @@ module.exports = function (source) {
         // route object to insert
         let routeExpression = `{
             path: '${skeletonRoutePath}',
-            name: '${entryHash}',
-            component: ${entryCap}
+            name: 'skeleton-${entryName}',
+            component: ${entryHash}
         },`;
 
         // insert route object into routes array
