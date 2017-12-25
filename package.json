@@ -17,7 +17,8 @@
     "loader-utils": "^1.1.0",
     "memory-fs": "^0.4.1",
     "vue-server-renderer": "^2.3.4",
-    "webpack": "^3.5.4"
+    "webpack": "^3.5.4",
+    "crypto": "^1.0.1"
   },
   "devDependencies": {
     "ava": "^0.18.2",
